@@ -1,0 +1,190 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+
+/*Common css*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif; 
+	font-size:16px;
+	font-weight: 400;
+	color: #626262;
+}
+
+/*Main Css*/
+
+/*Header start*/
+header{
+	padding: 30px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	margin-top: 5px;
+	width: 15%;
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	margin: 0 55px ;
+	color: #626262;
+	text-transform: uppercase;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom:1px solid #626262;
+}
+/*banner start*/
+.banner{}
+.b_img img{
+	width: 100%;
+}
+/*getaway start*/
+.getaway{
+	padding: 80px 0 100px;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+}
+.g_wrapper{}
+.c_light{
+	margin: 20px 0 0;
+}
+.c_title{
+	margin:20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0 0 40px;
+	line-height: 25px;
+}
+/*Blog start*/
+.blog{
+	padding: 40px 0 50px;
+}
+.b_blog{
+	overflow: hidden;
+}
+.single{
+	width: 45%;
+	float: left;
+	margin-bottom: 50px;
+}
+.b_blog .single img{
+	width: 100%;
+}
+.b_blog .single:nth-child(even){
+	margin-left: 10%;
+}
+
+/*News Start*/
+.news{
+	background-color:#F0F0F0;  
+	padding: 70px 0px;
+}
+.n_wrap{
+	text-align: center; 
+	 
+}
+.n_form{
+	width: 465px;
+	position: relative;
+    margin: 0 auto;
+}
+.n_wrap h1{
+	margin: 0 0 70px;
+	font-family: 'Playfair Display', serif; 
+	font-size:30px;
+	font-weight: 400;
+	color: #626262;
+}
+.n_wrap input{
+	 
+	padding-right: 50px;
+	width: 400px;
+	height: 40px;
+	font-family: 'Playfair Display', serif;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #626262;
+}
+.n_wrap input:focus{
+	outline: 0;
+}
+.n_wrap button{
+	position: absolute;
+	bottom: 3px;
+	right: 2px;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+.n_wrap button:focus{
+	outline: 0;
+}
+.n_wrap button img{}
+/*News End*/
+
+/*blog2 start*/
+.blog2{
+	/*padding: 80px 0 80px;*/
+}
+.button_wrap{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.button_wrap button{
+	width: 160px;
+	height: 60px;
+	font-size: 20px;
+    color: #626262;
+}
+
+/*footer start*/
+footer{
+	background-color: #F0F0F0;
+	overflow: hidden;
+}
+.terms{
+	width: 30%;
+	float: left;
+}
+.social{
+	width: 25%;
+	float: right;
+	 
+}
+footer .social ul{
+	float: left;
+}
+footer ul li{
+	list-style: none;
+	float: left;
+}
+footer ul li a{
+	text-decoration: none;
+	padding: 0 12px;
+	color: #626262;
+}
